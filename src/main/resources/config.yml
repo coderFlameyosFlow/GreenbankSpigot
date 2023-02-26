@@ -1,0 +1,42 @@
+# This automatically overrides all other economy plugins,
+# Default: true
+override-all-other-plugins: true
+
+# CURRENCY SETTINGS
+
+# The currency name (plural), such as dollar, euro, etc.
+currency-name: "Dollar"
+currency-name-plural: "Dollars"
+
+# The sign of the currency, such as dollar, euro, etc.
+currency-sign: "$"
+
+# BALANCE SETTINGS
+
+# The starting balance where everyone receives
+# this default amount of money for every player.
+#
+# The default amount is 0 (no given amount).
+default-starting-balance: 0
+
+# default-starting-balance but the difference is:
+# Instead of using /balance and stuff like that, everything is stored into a GUI based bank account.
+default-starting-bank-balance: 0
+
+# Should the plugin be able to create an account on player's first join?
+# This checks if the player has an account, and if not then it creates an account on join (if true).
+#
+# if this is "false", the plugin registers the command "/createaccount".
+# MUST RESTART IF SET TO FALSE WHILE SERVER IS ON.
+# Default: true
+create-account-on-join: true
+
+
+
+# File version, DO NOT EDIT.
+#
+# This is provided entirely by the BoostedYAML implementation automatically,
+#
+# so you should NOT mess with this unless you REALLY know
+# what you are doing with this. (or a trusted developer tells you to change this)
+file-version: 1
